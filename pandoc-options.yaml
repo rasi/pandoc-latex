@@ -1,0 +1,9 @@
+bibliography: bibliography.json
+csl: nature.csl
+link-citations: true
+geometry:
+  - margin=0.5in
+linestretch: 1
+mainfont: Helvetica
+fontsize: 11pt
+linkcolor: blue
