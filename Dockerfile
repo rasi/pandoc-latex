@@ -30,3 +30,7 @@ COPY pandoc-svg.py /usr/local/bin/pandoc-svg.py
 RUN chmod -R 755 /usr/local/bin/pandoc-svg.py
 
 ENTRYPOINT ["/bin/bash"]
+
+# for adjusting lists
+RUN tlmgr install enumitem
+
