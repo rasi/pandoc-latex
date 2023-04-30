@@ -34,3 +34,5 @@ ENTRYPOINT ["/bin/bash"]
 # for adjusting lists
 RUN tlmgr install enumitem
 
+# for text wrapped figures
+RUN tlmgr install wrapfig
