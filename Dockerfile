@@ -36,3 +36,6 @@ RUN tlmgr install enumitem
 
 # for text wrapped figures
 RUN tlmgr install wrapfig
+
+# for linebreak in urls
+RUN tlmgr install xurl
